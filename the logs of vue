@@ -1,14 +1,22 @@
 vue
-
+  vue的生命周期里边有八个生命周期钩子函数分别是：
+    beforeCreat() 创建前
+    created（）创建
+    beforeMount()挂载前
+    mounted（）挂载
+    beforeupdate（）更改前
+    updated（）更改
+    beforeDestroy()销毁前
+    destroyed（）销毁
 element
 
 echarts
-注意一下版本5和5之前的引用是不一样的
-5before:
-import echarts from 'echarts';
-// 或者按需引入
-import echarts from 'echarts/lib/echarts';
-5after:
-import * as echarts from 'echarts';
-// 按需引入
-import * as echarts from 'echarts/lib/echarts';
+  注意一下版本5和5之前的引用是不一样的
+    5before:
+    import echarts from 'echarts';
+    // 或者按需引入
+    import echarts from 'echarts/lib/echarts';
+    5after:
+    import * as echarts from 'echarts';
+    // 按需引入
+    import * as echarts from 'echarts/lib/echarts';
