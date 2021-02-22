@@ -1,3 +1,12 @@
 vue部分
 element
 echarts
+注意一下版本5和5之前的引用是不一样的
+5before:
+import echarts from 'echarts';
+// 或者按需引入
+import echarts from 'echarts/lib/echarts';
+5after:
+import * as echarts from 'echarts';
+// 按需引入
+import * as echarts from 'echarts/lib/echarts';
