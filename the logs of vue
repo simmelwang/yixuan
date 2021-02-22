@@ -1,5 +1,7 @@
-vue部分
+vue
+
 element
+
 echarts
 注意一下版本5和5之前的引用是不一样的
 5before:
