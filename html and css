@@ -16,6 +16,8 @@ css
   3、清除浮动
     两种比较推荐的方法(https://blog.csdn.net/h_qingyi/article/details/81269667)
     1、使用after伪元素清除浮动
+    （符合闭合浮动思想，结构语义化正确）
+    （ie6-7不支持伪元素：after，使用zoom:1触发hasLayout.）
       .clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
           content: "";
           display: block;
@@ -28,6 +30,8 @@ css
       }
 
     2、使用before和after双伪元素清除浮动
+    （代码更简洁）
+    （用zoom:1触发hasLayout.）
       .clearfix:after,.clearfix:before{
           content: "";
           display: table;
