@@ -1,7 +1,7 @@
 
 html
   Vue插件的引用
-    一般我们选择在mainjs文件中导包引用（1、impoort;2、使用;3、一般都还有挂载的操作）
+    一般我们选择在mainjs文件中导包引用（1、import;2、使用;3、一般都还有挂载的操作）
   
 css
   1、样式级别
@@ -12,7 +12,7 @@ css
     还有比较好的方式就是，在Vue的项目里面，我们可以选择使用Scope这个标签来确保样式仅在当前页面生效
   2、rgb和rgba(css)
     rgb三个参数（早期版本）；rgba,四个参数（后期版本）；
-    rgba的兼容性或比rgb更好，或者吧rgba理解成rgbplus。
+    rgba的兼容性或比rgb更好，或者吧rgba理解成rgb-plus。
   3、清除浮动
     两种比较推荐的方法(https://blog.csdn.net/h_qingyi/article/details/81269667)
     1、使用after伪元素清除浮动
