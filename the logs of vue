@@ -8,6 +8,12 @@ vue
     updated（）更改
     beforeDestroy()销毁前
     destroyed（）销毁
+vue-router
+  实现导航步骤
+    el-menu:开启router功能，default-active：绑定$this.router.path
+    el-menu-item:绑定index
+    router的index.js:配置el-menu-item的路由，需对应绑定的index
+    index布局：公共组件先写，router-view内部写跳转的组件
 element
   样式
     引用el的插件时，我们需要注意到，有一些样式的细节需要更改，
